@@ -1,0 +1,19 @@
+{
+  "placeholder": {
+    "firstName": "الاسم الاول",
+    "lastName": "الاسم الاخير",
+    "email": "ادخل البريد الالكتروني",
+    "phone": "رقم الجوال",
+    "password": "كلمة المرور"
+  },
+  "text": {
+    "firstName": "الاسم الأول",
+    "lastName": "الاسم الأخير",
+    "email": "البريد الالكتروني",
+    "password": "كلمة المرور",
+    "createUser": "انشاء مستخدم",
+    "signIn": "تسجيل الدخول",
+    "alreadyAccount": "لديك حساب من قبل؟",
+    "contosoUniversity": "تعدد اللغات"
+  }
+}

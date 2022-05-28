@@ -1,0 +1,15 @@
+{
+  "placeholder": {
+    "email": "Entrez votre adresse email",
+    "password": "Tapez votre mot de passe"
+  },
+  "text": {
+    "email": "Email",
+    "password": "Mot de passe",
+    "signIn": "Se connecter",
+    "dontAccount": "Vous n'avez pas encore de compte?",
+    "signUp": "S'inscrire",
+    "offeredIn": "Offert en:",
+    "contosoUniversity": "Multi langues"
+  }
+}

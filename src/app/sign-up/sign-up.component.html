@@ -1,0 +1,41 @@
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 mx-auto px-lg-4 mt-lg-5 pt-lg-4">
+            <a class="text-center d-block mb-5 logo_text" href="#">{{multilingualContent.text.contosoUniversity}}</a>
+            <form class="account_form">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">{{multilingualContent.text.firstName}}<span class="required ml-1 text-danger font-weight-bold">*</span></label>
+                    <input type="text" [placeholder]="multilingualContent.placeholder.firstName" class="form-control ">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">{{multilingualContent.text.lastName}}<span class="required ml-1 text-danger font-weight-bold">*</span></label>
+                    <input type="text" [placeholder]="multilingualContent.placeholder.lastName" class="form-control">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">{{multilingualContent.text.email}}<span class="required ml-1 text-danger font-weight-bold">*</span></label>
+                <input type="email" [placeholder]="multilingualContent.placeholder.email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">{{multilingualContent.text.password}}<span class="required ml-1 text-danger font-weight-bold">*</span></label>
+                <input type="password" [placeholder]="multilingualContent.placeholder.password" class="form-control">
+              </div>
+              <div class="form-group pt-3 pb-4">
+                <a href="user.html" class="btn btn-theme btn-block form_submit_btn">{{multilingualContent.text.createUser}}</a>
+              </div>
+            </form>
+            <p class="text-gray-soft text-center small mb-2">{{multilingualContent.text.alreadyAccount}} <b> <a routerLink="/{{multilingualContent.languageCode}}/login">{{multilingualContent.text.signIn}}</a></b></p>
+
+            <p class="small text-center text-gray-soft">
+              <a class="blue-link" [class.active-language]="multilingualContent.languageCode == 'en'" (click)="navigate('en')">English</a>
+              <a class="blue-link" [class.active-language]="multilingualContent.languageCode == 'fr'" (click)="navigate('fr')">French</a>
+              <a class="blue-link" [class.active-language]="multilingualContent.languageCode == 'ar'" (click)="navigate('ar')">عربي</a>
+            </p>
+          </div>
+        </div>
+    </div>
